@@ -26,4 +26,6 @@ const configure = () => {
     HttpMethods,
     configure,
     getAxiosclient
-  }
+  };
+  
+  export default HttpService
