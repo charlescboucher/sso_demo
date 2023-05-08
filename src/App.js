@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import UserService from "./services/UserService";
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
+         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        
+        <button className="btn btn-lg btn-warning" onClick={() => UserService.doLogout()}>
+          Logout
+        </button>
+                 
         </p>
         <a
           className="App-link"
@@ -17,7 +23,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> 
+  
     </div>
   );
 }
