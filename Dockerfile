@@ -6,6 +6,6 @@ WORKDIR /usr/local/app
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 3002
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
