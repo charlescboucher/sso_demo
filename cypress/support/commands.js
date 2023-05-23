@@ -26,6 +26,7 @@
 Cypress.Commands.add('login', () => {
     cy.visit('http://localhost:3000')
     cy.get('[id=username]').type('user1')
-    cy.get('[id=password]').type('Realword21!')
+    cy.get('[id=password]').type('Realworld21!')
+    cy.get('form').contains('Sign In').click()
     cy.hash().should('eq','')
 })
