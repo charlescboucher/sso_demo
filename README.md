@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Setting up Database for testing code
+
+Following are the values for setting up the Realm, Roles and Users for th demo.
+
+Realm: Keycloakreactauth
+Client: sso_demo
+Roles: Role1
+Role2
+Admin
+
+Usernames & Passwords
+
+user1 password123
+user2 password123
+admin password123
+
+ROLE USER Mapping
+
+Admin admin
+user1
+
+Role1 user1
+user2
+admin
+
+Role2 user1
+admin

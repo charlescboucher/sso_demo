@@ -28,7 +28,7 @@ describe('template spec', () => {
 
   it('navigates to localhost 300 on sucessful login', () => {
     cy.get('[id=username]').type('user1')
-    cy.get('[id=password]').type('Realworld21!')
+    cy.get('[id=password]').type('password123')
     cy.get('form').contains('Sign In').click()
     cy.hash().should('eq','')
   })
